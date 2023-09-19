@@ -14,8 +14,8 @@ namespace MonOutil
             double tempEnFarhrenheit;
             string? celsius;
 
-            Console.WriteLine("Welcome to my wheater program");
-            Console.WriteLine("Enter the temperature in Celsius : ");
+            Console.WriteLine("Bienvenu a mon programme de Météo");
+            Console.WriteLine("Entez la temperature en Celsius : ");
             celsius = Console.ReadLine();
             tempEnCelsius = Convert.ToDouble(celsius);
             tempEnFarhrenheit = (tempEnCelsius * 9 / 5) + 32;

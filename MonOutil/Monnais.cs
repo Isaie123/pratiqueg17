@@ -8,5 +8,9 @@ namespace MonOutil
 {
     internal class Monnais
     {
+        public Monnais()
+        {
+            Console.WriteLine("Bonjour, dans le programme qui permet la convertissions de Monnais.");
+        }
     }
 }

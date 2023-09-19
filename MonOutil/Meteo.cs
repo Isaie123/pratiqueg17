@@ -33,7 +33,7 @@ namespace MonOutil
                     tempEnFahrenheit = (tempEnCelsius * 9 / 5) + 32;
                     Console.WriteLine($"La température en Fahrenheit est: {tempEnFahrenheit}");
                     Console.ReadLine();
-                    break; // Added break to exit the loop after successful conversion
+                     // Added break to exit the loop after successful conversion
                 }
                 else if (line.ToLower() == "f")
                 {
@@ -45,7 +45,7 @@ namespace MonOutil
                     tempEnCelsius = (tempEnFahrenheit - 32) * 5 / 9;  // Corrected the formula
                     Console.WriteLine($"La température en Celsius: {tempEnCelsius}");
                     Console.ReadLine();
-                    break; // Added break to exit the loop after successful conversion
+                    // Added break to exit the loop after successful conversion
                 }
                 else
                 {
